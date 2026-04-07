@@ -9,7 +9,7 @@ const CidadeCard = (props) =>
             <img src={props.imgSrc}></img>
         </div>
         <div classname="cidadevotes">
-            <h2> {props.vote}</h2>
+            <h2> Votos: {props.vote}</h2>
         </div>
     </div>
 
