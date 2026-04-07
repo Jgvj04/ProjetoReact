@@ -11,9 +11,6 @@ const CidadeCard = (props) =>
         <div classname="cidadevotes">
             <h2> {props.vote}</h2>
         </div>
-        <div classname="cidadebutton">
-            <button> Votar</button>
-        </div>
     </div>
 
 export default CidadeCard

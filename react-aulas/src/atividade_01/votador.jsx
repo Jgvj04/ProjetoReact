@@ -5,8 +5,21 @@ function Votador() {
 
     return (
         <div>
-            <CidadeList/>
+            <>
+                <CidadeList/>
+            </>
+
+            <div className="buttons">
+                {
+                    CidadeList.map(
+                        (cidade) => 
+                        <button> {cidade.nome} </button>
+                    )
+                }
+
+            </div>
         </div>
+
 
     )
 }
